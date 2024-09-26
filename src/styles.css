@@ -1,0 +1,27 @@
+html, body {
+  background: var(--background-color);
+  margin: 0;
+}
+
+.page-body {
+  margin: 0 5rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, summary {
+  color: var(--text-color);
+}
+
+table {
+  border-radius: 0.5rem;
+  background: var(--table-color);
+  color: var(--text-color);
+}
+
+:root {
+  --background-color: rgb(25, 25, 25);
+  --text-color: rgba(236, 236, 236, 0.81);
+  --fluo-color: rgb(94, 68, 51);
+  --table-color: #282828;
+  --border-color: #484848;
+}
+
